@@ -1,0 +1,389 @@
+<!DOCTYPE html>
+<!--
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/Other/html.html to edit this template
+-->
+<html>  
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+          <title>Flavour.sa</title>
+         <style type ="text/css">
+          body {font-family:goud old style;padding-bottom:30px;}  
+          h1{font-size:30pt;}
+          h1{color:black;}
+          h1{background-color: white;}
+          h1{text-align: left;}
+          .header img{float: left;
+                     width: 200px;
+                     height:300px;
+                      background: #555;
+                       shape:circle;} 
+          .header h1{position : relative;
+                      top: 40px;
+                        left: 20px;}
+          footer{background-color: white;
+                 font-size: 10pt;
+                  opacity: 0.7;
+          }
+          h2{font-size:20pt;}
+          h2{color:black;}
+          h2{background-color: white;}
+          h2{ text-align: center;}
+           h3{font-size:15pt;}
+          h3{color:black;}
+          h4{font-size:20pt;}
+          h4{color:grey;}
+          h4{background-color: white;}
+          h4{text-align: cent;}
+          p{text-align:justify;margin:11px 0px;}
+          p{color:grey;}
+          p{ text-align: center;}
+          p{font-size: 10pt;}
+          p{font-size:15pt;}
+          p1{color:black;}
+          p1{background-color:white; }
+          p1{ text-align: center;}
+          p1{font-size:15pt;}
+          body {background-image: url('images/pinksilk.jpg');
+                 opacity: 0.9;}
+          div1{background-color: white;}
+          
+          li{color:white;}
+          li{font-size:10pt;}
+          button{color:black;}
+          button{font-size: 20pt}
+          img {
+               
+               position: relative;
+               }
+        
+               div2{
+                   opacity: 0.2;
+               }
+          
+          .topnav a{ background-color: white;
+                      overflow: hidden;}
+          iframe{position: relative;}
+          .topnav a{float: right;
+                    color: black;
+                     text-align: left;
+                       padding: 14px 16px;
+                        text-decoration: overline;
+                         font-size:12px;}
+                   legend{color:white;}
+                   legend{ text-align: bottom;}
+                   legend{font-size:30pt;}
+                   label{color:black;}
+                   label{ text-align: top;}
+                   div{ text-align: left;}
+                   * {
+  box-sizing: border-box;
+}
+
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+[class*="col-"] {
+  float: left;
+  padding: 15px;
+}
+
+html {
+  font-family: "Lucida Sans", sans-serif;
+}
+
+.header {
+  background-color: #9933cc;
+  color: #ffffff;
+  padding: 15px;
+}
+
+.menu ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.menu li {
+  padding: 8px;
+  margin-bottom: 7px;
+  background-color: grey;
+  color: #ffffff;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+}
+
+.menu li:hover {
+  background-color: grey;
+}
+
+.aside {
+  background-color: grey;
+  padding: 15px;
+  color: #ffffff;
+  text-align: center;
+  font-size: 14px;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+}
+
+
+
+/* For mobile phones: */
+[class*="col-"] {
+  width: 100%;
+}
+
+@media only screen and (min-width: 600px) {
+  /* For tablets: */
+  .col-s-1 {width: 8.33%;}
+  .col-s-2 {width: 16.66%;}
+  .col-s-3 {width: 25%;}
+  .col-s-4 {width: 33.33%;}
+  .col-s-5 {width: 41.66%;}
+  .col-s-6 {width: 50%;}
+  .col-s-7 {width: 58.33%;}
+  .col-s-8 {width: 66.66%;}
+  .col-s-9 {width: 75%;}
+  .col-s-10 {width: 83.33%;}
+  .col-s-11 {width: 91.66%;}
+  .col-s-12 {width: 100%;}
+}
+@media only screen and (min-width: 768px) {
+  /* For desktop: */
+  .col-1 {width: 8.33%;}
+  .col-2 {width: 16.66%;}
+  .col-3 {width: 25%;}
+  .col-4 {width: 33.33%;}
+  .col-5 {width: 41.66%;}
+  .col-6 {width: 50%;}
+  .col-7 {width: 58.33%;}
+  .col-8 {width: 66.66%;}
+  .col-9 {width: 75%;}
+  .col-10 {width: 83.33%;}
+  .col-11 {width: 91.66%;}
+  .col-12 {width: 100%;}
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Style the header */
+header {
+  background-color: white;
+  padding: 30px;
+  text-align: center;
+  font-size: 35px;
+  color: white;
+}
+
+/* Create two columns/boxes that floats next to each other */
+nav {
+  float: left;
+  width: 30%;
+  height: 300px; /* only for demonstration, should be removed */
+  background: white;
+  padding: 20px;
+}
+
+
+  list-style-type: none;
+  padding: 0;
+}
+
+article {
+  float: left;
+  padding: 20px;
+  width: 70%;
+  background-color: white;
+  height: 300px; /* only for demonstration, should be removed */
+}
+
+
+section::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+footer {
+  background-color: white;
+  padding: 10px;
+  text-align: center;
+  color: white;
+}
+ody, h1,h2,h3,h4,h5,h6 {font-family: "Montserrat", sans-serif}
+ img {margin-bottom: 12px}
+
+sidebar {width: 250px;background: white;}
+
+#main {margin-right: 400px}
+/* Remove margins from "page content" on small screens */
+@media only screen and (max-width: 1000px) {#main {margin-right: 0}} 
+/* Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens */
+@media (max-width: 1000px) {
+  nav, article {
+    width: 130%;
+    height: auto;
+  }
+}
+                   hr.solid{border-bottom: 3px solid bottom;
+                               color:white;}
+                   
+                     div1  {width:10px;
+                height:10px;
+                
+                position: relative;
+                animation-name:BLUSH;
+                animation-duration:3s;
+                animation-delay:0s;
+                animation-iteration-count: 1;
+                animation-direction: normal;
+                animation-play-state: running;
+                animation-timing-function: linear;
+               
+                
+                }
+         
+           @keyframes BLUSH{
+               0%   {animation-name:
+                     left:0px;right:0px;}
+               25%    {animation-name:
+                     left:800px;right:800px;}
+                50%  {animation-name:
+                     left:900px;right:900px;}
+                100% {animation-name:
+                     left:0px;right:0px;}
+                
+                    }
+                    
+           .popup {
+                      position: relative;
+                      display: inline-block;
+                     cursor: pointer;
+                 -webkit-user-select: none;
+                   -moz-user-select: none;
+                     -ms-user-select: none;
+                    user-select: none;
+                }
+                
+                .popup .popuptext {
+  visibility: hidden;
+  width: 160px;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 8px 0;
+  position: absolute;
+  z-index: 1;
+  bottom: 125%;
+  left: 50%;
+  margin-left: -60px;
+}
+
+.popup .popuptext::after {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: #555 transparent transparent transparent;
+}
+
+.popup .show {
+  visibility: visible;
+  -webkit-animation: fadeIn 1s;
+  animation: fadeIn 1s;
+}
+
+
+@-webkit-keyframes fadeIn {
+  from {opacity: 0;} 
+  to {opacity: 1;}
+}
+
+@keyframes fadeIn {
+  from {opacity: 0;}
+  to {opacity:1 ;}
+}
+                
+                
+        </style>
+        
+         
+    
+    <div2 <body  style="background-image: url('images/pinksilk.jpg');"> </div2>
+      <body style="text-align:center">
+     
+                  <link href="css/styles.css" rel="stylesheet" type="text/css">
+  
+              <div  class="topnav"
+                  <a class="active"
+                  href="#home"></a> 
+                     
+                    <a  href=Reflection.html">POE Reflection</a>
+                  <a  href="subscribe to newsletter.html">Subscribe TO Newsletter</a>
+                    <a  href="contact us.html">Contact Us</a>
+                    <a href="our work.html">Events</a>
+                    <a href="our gallery.html">Gallery</a> 
+                     <a href="about us.html">About Us</a>
+                      <a href="index.html">Home Page</a>
+      </div>
+
+         <h1><strong><em>FLAVOUR.sa</em></strong></h1><br><br><br>
+         
+         
+         
+           <!--<h2>꧁FIND MZANSI'S HOTSPOTS꧂</h2>-->
+           
+           <!-- <video width="1000" height="600" controls="controlds"
+                                          <source src="videos/logo4.mov" type="video/mov" text-align="center";>
+                                             </video>-->
+                                        
+        
+  
+  <img src="images/party people.jpg" style="width:30%">
+  
+
+
+    <p1>  Welcome to the flav family.<br> <strong>Flavour.sa</strong> is website that keeps you updated with the lastest events,resturants and places 
+        to hang out with<br> friends and family all around Jozi.</p1><br><br><<img src="images/eating.jpg" style="width:30%">
+ 
+        </div>      
+    
+                                 <h4> Fill the google form Below</h4>
+
+       <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSf2P00tUN2nGARftTYfFaeyCbgz2NCEWtHoP0ebzMQdjxH6gA/viewform?embedded=true"
+               width="640" height="500" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe><br><br><br><br><br>
+ 
+               <p1> This the email ad on that allows the webmaster to receive the google forms directly to them examples provided below</p>
+          <img  src="images/google1.jpg" style="width:30%">
+          <img src="images/google2.jpg" style="width:30%"><br><br><br><br><br>
+          
+            <video width="1100" height="200" controls="controlds"
+             <source src="videos/introduction.mov" type="video/mp4"></video><br><br><br><br><br>
+                           
+              
+              <!-- <a href="our work.html" > <legend><em><strong><u> Click Here To Find Events<u></strong></em></legend></a><br>-->
+    
+    </body>
+    <footer><p>Video was created with:Inshot<br>
+            Music By:Rio de Janeiro,EnjoyMusic<br>
+            background image of website adpated from:
+            https://egedalgym.dk/black-and-white-club-crowd-788824/<br>
+            https://www.exportersindia.com/product-detail/silk-fabric-1374275.htm<br>
+            Site for music :<a href="our work.html">https://enjoymusic.ai/</a><br>
+            Site for party image :<a href="our work.html">https://www.istockphoto.com/photos/party</p></footer>
+</html>
+
+
